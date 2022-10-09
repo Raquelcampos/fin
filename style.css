@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #2cb3f3;
+}
+body{
+    margin: 0 auto;
+    width:50%;
+    text-align: center;
+}
+h1{
+    font-size: 3rem;
+}
+p{
+    font-size: 1.5rem;
+}
+.cabeça {
+    background: white;
+    width: 90%;
+    height: 410px;
+    position: relative;
+    left:5%;
+    top:15px;
+    border-radius: 60px 60px 0px 0px;
+  }
+  .face {
+    background: #ffe1c9;
+    width: 90%;
+    height: 300px;
+    position: absolute;
+    top: 60px;
+    left: 5%;
+    border-radius: 50%;
+  }
+  .olhod {
+    background-color: black;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: relative;
+    top: 60px;
+    left: 20%;
+  }
+  .olhoe {
+    background-color: black;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    position: relative;
+    top: 25px;
+    left: 70%;
+  }
+  form {
+    position: absolute;
+    top: 55%;
+    left: 30%;
+    width: 38%;
+    background: #ffe1c9;
+  }
+  input {
+    height: 35px;
+    border-radius: 5px;
+    background-color: white;
+  }
+  button {
+    width: 150px;
+    height: 50px;
+    background-color: #55a603;
+    color: white;
+    margin-top: 5%;
+    box-shadow: 0px 2px 0px black;
+  }
+  button:hover {
+    cursor: pointer;
+    font-weight: bolder;
+  }
+
+ @media (max-width:1000px){
+    body{
+        width: 70%;
+    }
+ }
+ @media (max-width:700px){
+    body{
+        width: 90%;
+    }
+ }
